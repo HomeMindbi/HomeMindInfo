@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+
+}
+
+
+.section-title {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.margin {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.paragraph {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.custom-width {
+    min-width: 500px;
+}
+
+.email-input {
+    height: 24px;
+}
+
+.message-input {
+    height: 40px;
+}
+
+@media (max-width: 480px) {
+    .margin {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .paragraph {
+        font-size: 14px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .custom-width {
+        min-width: 300px;
+    }
+    
+    .email-input {
+        height: 20px;
+    }
+    
+    .message-input {
+        height: 34px;
+    }
+}
